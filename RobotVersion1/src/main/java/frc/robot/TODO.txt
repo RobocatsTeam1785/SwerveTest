@@ -1,0 +1,15 @@
+TODO:
+
+Tune PIDControllers:
+ - Probably leave ki and kd blank, just tuning kp
+ - Broncobots had theirs tuned to 0.3 for BOTH drive and turn
+Find ModuleMaxAngularAcceleration AND ModuleMAxAngularVelocity
+ - ModuleMaxAngularAcceleration was default 2pi, idk if it needs editing???
+ - Velocity definitely needs changing, I have it at 0 rn. It is set to pi in SwerveDrive.java
+Tune SimpleMotorFeeds
+ - IDK what these are so idk how to tune them but good luck.
+Find Drive and Turn resolutions
+ - Should be easy to find
+Wheel Radius
+ - Easy
+Length, Width, Max Speed
